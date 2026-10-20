@@ -9,13 +9,16 @@ public class Main {
         Dog dog = new Dog("Buddy");
         Cat cat = new Cat("Luna");
 
-		// Print information about the pets
+        // Print information about the pets
         System.out.println("Welcome everybody...");
         dog.bark();
         cat.meow();
 
         dog.feed();
         cat.play();
+
+        dog.fetch();
+        cat.purr();
 
         dog.showStatus();
         cat.showStatus();
