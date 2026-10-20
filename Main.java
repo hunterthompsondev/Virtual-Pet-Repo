@@ -1,16 +1,16 @@
 /**
-Main.java
-
-Functionality for testing Virtual Pet classes
-*/
+ * Main.java
+ * 
+ * Functionality for testing Virtual Pet classes
+ */
 public class Main {
     public static void main(String[] args) {
-		// Define starting pets
+        // Define starting pets
         Dog dog = new Dog("Buddy");
         Cat cat = new Cat("Luna");
 
-		// Print information about the pets
-        System.out.println("Welcome to Virtual Pets!");
+        // Print information about the pets
+        System.out.println("Welcome to Virtual Pets!!!!!!!!");
         dog.bark();
         cat.meow();
 
